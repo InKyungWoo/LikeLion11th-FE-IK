@@ -19,9 +19,13 @@ const Home = () => {
     const handleScrollTo = (elementId) => {
         const element = document.getElementById(elementId);
         if (element) {
+            console.log(`Scrolling to element with ID: ${elementId}`);
             element.scrollIntoView({ behavior: 'smooth' });
+        } else {
+            console.error(`Element with ID ${elementId} not found`);
         }
     };
+    
 
     return (
     <Container>
@@ -54,6 +58,7 @@ const Home = () => {
         <About />
         <Favorites />
         <Contact />
+        
     </ContentContainer>
     </Container>
     );
@@ -62,8 +67,10 @@ const Home = () => {
 export default Home;
 
 const Container = styled.div`
-  overflow: hidden;
+  overflow: auto;
   font-family: 'Roboto Slab', serif;
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
 `;
 
 const Header = styled.header`
@@ -81,6 +88,7 @@ const Menu = styled.nav`
   left: 0;
   right: 0;
   height: 80px;
+  scroll-behavior: smooth;
 `;
 
 const MenuList = styled.ul`

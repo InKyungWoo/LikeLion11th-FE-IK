@@ -16,7 +16,7 @@ const GlobalStyle = createGlobalStyle`
 
   body {
     font-family: 'Roboto Slab', serif;
-    /* 추가적인 전역 스타일 설정 */
+    scroll-behavior: smooth;
   }
 `;
 
