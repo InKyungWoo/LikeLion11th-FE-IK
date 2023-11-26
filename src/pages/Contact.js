@@ -1,10 +1,33 @@
 // Contact.js
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
 
 const Contact = () => {
+
+    const [isScrolledDown, setIsScrolledDown] = useState(false);
+
+    useEffect(() => {
+      const handleScroll = () => {
+        const scrollY = window.scrollY;
+        const windowHeight = window.innerHeight;
+        const documentHeight = document.documentElement.scrollHeight;
+  
+        // 맨 아래에서 100px 위로 올라갈 때 보이도록 설정
+        setIsScrolledDown(scrollY > documentHeight - windowHeight - 100);
+      };
+  
+      // 이벤트 리스너 등록
+      window.addEventListener('scroll', handleScroll);
+  
+      // 컴포넌트가 언마운트될 때 이벤트 리스너 제거
+      return () => {
+        window.removeEventListener('scroll', handleScroll);
+      };
+    }, []);
+
+
     return (
-      <ContactContainer>
+      <ContactContainer id="contact">
         <ImageContainer>
           <ContactImage src="./images/sea.png" alt="Contact" />
         </ImageContainer>
@@ -23,7 +46,9 @@ const Contact = () => {
             IDUS
           </ContactLink>
         </ContactList>
-
+        <Footer isVisible={isScrolledDown}>
+            <p>Copyright ⓒ In Kyung Woo</p>
+        </Footer>
       </ContactContainer>
     );
   };
@@ -68,5 +93,16 @@ const Contact = () => {
     }
   `;
 
+const Footer = styled.p`
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 7px;
+  background-color: white;
+  color: #362d2e;
+  font-size: 10px;
+  text-align: center;
+  visibility: ${({ isVisible }) => (isVisible ? 'visible' : 'hidden')};
+`;
 
     export default Contact;
