@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
 
-const ProjectCard = ({ title, imageSrc, date, info, tech }) => {
+const ProjectCard = ({ title, imageSrc, date, info, tech, githubLink }) => {
   const [isExpanded, setIsExpanded] = useState(false);
 
   const handleCardClick = () => {
@@ -13,7 +13,9 @@ const ProjectCard = ({ title, imageSrc, date, info, tech }) => {
       <Card onClick={handleCardClick} isExpanded={isExpanded}>
         <img className="img" src={imageSrc} alt={title} />
         <div className="txt">
-          <h3>{title}</h3>
+          <a href={githubLink} target="_blank" rel="noopener noreferrer">
+            <h3 className="project-title">{title}</h3>
+          </a>
           {isExpanded && (
             <dl>
               <div>
@@ -36,7 +38,7 @@ const ProjectCard = ({ title, imageSrc, date, info, tech }) => {
 const CardContainer = styled.div`
   position: relative;
   width: 100%;
-  max-width: 300px; 
+  max-width: 300px;
   margin: 0 auto;
 `;
 
@@ -45,7 +47,7 @@ const Card = styled.article`
   overflow: hidden;
   transition: transform 0.3s ease-in-out;
   border-radius: 15px;
-  border: 1px solid #fff; 
+  border: 1px solid #fff;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 
   &:hover {
@@ -64,21 +66,31 @@ const Card = styled.article`
     font-family: 'Happiness-Sans';
     color: #8e8e8e;
 
-    h3 {
-      margin: 0;
-      font-size: 15px;
+    a {
+      text-decoration: none; /* 밑줄 지우기 */
       color: #5b5959;
+      cursor: pointer;
     }
+  }
 
-    dl {
-      margin: 0;
-      div {
-        padding: 2px;
-        dt {
-          font-weight: normal;
-          font-size: 10px;
-          margin-top: 5px;
-        }
+  a:hover {
+  text-decoration: underline; /* 호버 시에 밑줄 */
+}
+
+  h3 {
+    margin: 0;
+    font-size: 15px;
+    color: #5b5959;
+  }
+
+  dl {
+    margin: 0;
+    div {
+      padding: 2px;
+      dt {
+        font-weight: normal;
+        font-size: 10px;
+        margin-top: 5px;
       }
     }
   }

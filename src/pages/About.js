@@ -10,6 +10,7 @@ const projects = [
     date: '2023.04 ~ 2023.05',
     info: '기념일 D-day 어드벤트 캘린더 웹',
     tech: 'JS, React, Django',
+    githubLink: 'https://github.com/InKyungWoo/11th_team3_miniproject',
   },
   {
     title: '🚫 tt project',
@@ -17,6 +18,7 @@ const projects = [
     date: '2023.04 ~ 2023.06',
     info: '틱톡 유해컨텐츠 필터링 모델 개발',
     tech: 'Python, Sequential, VGG',
+    githubLink: 'https://github.com/InKyungWoo/ttproject',
   },
   {
     title: '💳 똑카',
@@ -24,6 +26,7 @@ const projects = [
     date: '2023.07 ~ 2023.08',
     info: '시니어 대상 카드 추천 서비스 웹',
     tech: 'JS, React, Django, SQLite',
+    githubLink: 'https://github.com/InKyungWoo/ttogka-web',
   },
   {
     title: '🥜 Tori',
@@ -31,6 +34,7 @@ const projects = [
     date: '2023.09 ~ 2023.11',
     info: '경기도 여행지 추천 웹',
     tech: 'JS, Next.js, Java',
+    githubLink: 'https://github.com/GPYR-Tori',
   },
 ];
 
