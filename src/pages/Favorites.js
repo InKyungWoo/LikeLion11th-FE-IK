@@ -1,15 +1,25 @@
-import React from "react";
-import { useNavigate } from "react-router-dom";
-import styled from "styled-components";
+// Favorites.js
+import React from 'react';
+import styled from 'styled-components';
 
+const Favorites = () => {
+  return (
+    <FavoritesContainer id="favorites">
+      {/* Add your favorites content here */}
+    </FavoritesContainer>
+  );
+};
 
-function Favorites() {
-    return (
-      <div>
-        <h1>What I Love</h1>
-        {/* Favorites */}
-      </div>
-    );
-  }
-  
-  export default Favorites;
+const FavoritesContainer = styled.div`
+  background-color: #667c75;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`;
+
+export default Favorites;
