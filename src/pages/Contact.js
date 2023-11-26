@@ -36,6 +36,9 @@ const Contact = () => {
           <ContactLink href="https://github.com/InKyungWoo" className="ct">
             Github
           </ContactLink>
+          <ContactLink href="https://inkyungwoo.notion.site/Inkyung-s-Blog-e5010485d0164849a105aec5eb80a5c4?pvs=4" className="ct">
+            Notion
+          </ContactLink>
           <ContactLink href="https://velog.io/@chacha_w" className="ct">
             Velog
           </ContactLink>
