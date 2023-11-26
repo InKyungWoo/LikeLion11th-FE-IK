@@ -5,7 +5,7 @@ import styled from 'styled-components';
 
 const Favorites = () => {
   return (
-    <FavoritesContainer>
+    <FavoritesContainer id="favorites">
       <Title>Things that make my day 💫</Title>
       <FavoritesList>
         <ListItem>

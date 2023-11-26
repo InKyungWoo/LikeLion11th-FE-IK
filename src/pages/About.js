@@ -40,7 +40,7 @@ const projects = [
 
 const About = () => {
   return (
-    <AboutContainer>
+    <AboutContainer id="about">
       <Wrapper>
         <ProjectGrid>
           {projects.map((project, index) => (

@@ -99,7 +99,7 @@ const Footer = styled.p`
   width: 100%;
   padding: 7px;
   background-color: white;
-  color: #362d2e;
+  color: #5d5656;
   font-size: 10px;
   text-align: center;
   visibility: ${({ isVisible }) => (isVisible ? 'visible' : 'hidden')};
