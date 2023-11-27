@@ -1,6 +1,9 @@
-## 자기소개 페이지
+## 자기소개 페이지 🌷
+> Likelion-11th HUFS Global FE 우인경
 
-<img width="2216" alt="스크린샷 2023-11-27 오전 12 22 39" src="https://github.com/InKyungWoo/LikeLion11th-FE-IK/assets/102344718/12d3f3d2-ec57-4506-a538-790f76e09038">
-<img width="2211" alt="스크린샷 2023-11-27 오전 12 22 48" src="https://github.com/InKyungWoo/LikeLion11th-FE-IK/assets/102344718/663a58e1-a52d-4366-b3d0-db05a075b4cf">
-<img width="2213" alt="스크린샷 2023-11-27 오전 12 22 59" src="https://github.com/InKyungWoo/LikeLion11th-FE-IK/assets/102344718/d613b3fc-b798-40c6-96fd-5a63ce7d0183">
-<img width="2214" alt="스크린샷 2023-11-27 오전 12 23 11" src="https://github.com/InKyungWoo/LikeLion11th-FE-IK/assets/102344718/eef7f770-95d7-42c1-b955-9ef679d86232">
+<br>
+
+<img width="2212" alt="1 home" src="https://github.com/InKyungWoo/LikeLion11th-FE-IK/assets/102344718/5918ba34-3c0f-4366-8bc8-43a71df7ab19">
+<img width="2221" alt="2 about" src="https://github.com/InKyungWoo/LikeLion11th-FE-IK/assets/102344718/98d6de4a-7d67-4988-94c6-7762f8dfc921">
+<img width="2216" alt="3 favorites" src="https://github.com/InKyungWoo/LikeLion11th-FE-IK/assets/102344718/cfbd2ff6-81a3-43e3-ae98-fe19c13ccec1">
+<img width="2224" alt="4 contact" src="https://github.com/InKyungWoo/LikeLion11th-FE-IK/assets/102344718/190343b3-54eb-4c2e-887e-df1d6a474dfd">
