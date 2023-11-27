@@ -52,14 +52,14 @@ const Title = styled.h1`
   color: rgb(35, 49, 35);
   margin-top: 4rem;
   text-align: center;
-  font-size: 17px;
+  font-size: 23px;
   padding-top: 10rem;
   font-weight: 700;
 `;
 
 const FavoritesList = styled.div`
   display: inline-flex;
-  margin-top: 10rem;
+  margin-top: 9rem;
 `;
 
 const ListItem = styled.div`
@@ -75,8 +75,8 @@ const ListItem = styled.div`
 `;
 
 const ItemImage = styled.img`
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
   display: block;
   margin: 2vh 5vh;
   margin-top: 50px;
@@ -93,7 +93,7 @@ const ItemImageLink = styled.a`
 
 const ItemText = styled.p`
   margin-top: 5px;
-  font-size:13px;
+  font-size:20px;
 `;
 
 export default Favorites;

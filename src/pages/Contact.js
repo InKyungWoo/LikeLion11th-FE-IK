@@ -82,14 +82,14 @@ const Contact = () => {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    gap: 80px;
+    gap: 10rem;
     margin-top: 130px;
   `;
   
   const ContactLink = styled.a`
     color: #a7bce1;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 50px;
   
     &:hover {
       text-decoration: underline;
@@ -103,7 +103,7 @@ const Footer = styled.p`
   padding: 7px;
   background-color: white;
   color: #5d5656;
-  font-size: 10px;
+  font-size: 18px;
   text-align: center;
   visibility: ${({ isVisible }) => (isVisible ? 'visible' : 'hidden')};
 `;

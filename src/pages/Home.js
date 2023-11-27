@@ -46,7 +46,7 @@ const Home = () => {
         <FirstContent>
             {/* 1. Home */}
             <Profile>
-            <ProfileImage src="./images/me.jpeg" width="280px" height="280px" alt="me" />
+            <ProfileImage src="./images/me.jpeg" width="400px" height="400px" alt="me" />
             <p>
                 <strong>Hello, I'm Inkyung :)</strong>
                 <br />
@@ -78,7 +78,7 @@ const Header = styled.header`
 `;
 
 const Menu = styled.nav`
-  font-size: 18px;
+  font-size: 25px;
   font-style: italic;
   align-items: center;
   text-align: center;
@@ -141,7 +141,7 @@ const Profile = styled.div`
     font-style: italic;
     font-weight: lighter;
     margin-top: 60px;
-    font-size: 15px;
+    font-size: 20px;
 `;
 
 const ProfileImage = styled.img`

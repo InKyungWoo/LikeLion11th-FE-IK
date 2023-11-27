@@ -64,10 +64,10 @@ const AboutContainer = styled.div`
 const Wrapper = styled.div`
   //background-color: #755f79;
   border-radius: 15px;
-  padding-top: 12rem;
+  padding-top: 15rem;
   display: flex;
   align-items: center;
-  width: 80%;
+  width: 100%;
   overflow-y: auto;
   overflow-x: hidden;
   margin: 0 auto;

@@ -38,7 +38,7 @@ const ProjectCard = ({ title, imageSrc, date, info, tech, githubLink }) => {
 const CardContainer = styled.div`
   position: relative;
   width: 100%;
-  max-width: 400px;
+  max-width: 450px;
   margin: 0 auto;
 `;
 
@@ -80,7 +80,7 @@ const Card = styled.article`
 
   h3 {
     margin: 0;
-    font-size: 15px;
+    font-size: 20px;
     color: #5b5959;
   }
 
@@ -90,8 +90,8 @@ const Card = styled.article`
       padding: 2px;
       dt {
         font-weight: normal;
-        font-size: 10px;
-        margin-top: 5px;
+        font-size: 15px;
+        margin-top: 10px;
       }
     }
   }
