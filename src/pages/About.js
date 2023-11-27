@@ -53,7 +53,7 @@ const About = () => {
 };
 
 const AboutContainer = styled.div`
-  background-color: #9a859c;
+  background-color: #b3a0b4;
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -64,7 +64,7 @@ const AboutContainer = styled.div`
 const Wrapper = styled.div`
   //background-color: #755f79;
   border-radius: 15px;
-  padding-top: 120px;
+  padding-top: 12rem;
   display: flex;
   align-items: center;
   width: 80%;
@@ -82,7 +82,7 @@ const ProjectGrid = styled.div`
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 30px;
-  max-width: 60%; 
+  max-width: 80%; 
   margin: 20px auto;
   text-align: center;
 `;

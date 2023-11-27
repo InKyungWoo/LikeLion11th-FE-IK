@@ -50,16 +50,16 @@ const FavoritesContainer = styled.div`
 const Title = styled.h1`
   font-family: 'Roboto Slab', serif;
   color: rgb(35, 49, 35);
-  margin-top: 100px;
+  margin-top: 4rem;
   text-align: center;
-  font-size: 15px;
-  padding-top: 120px;
+  font-size: 17px;
+  padding-top: 10rem;
   font-weight: 700;
 `;
 
 const FavoritesList = styled.div`
   display: inline-flex;
-  margin-top: 40px;
+  margin-top: 10rem;
 `;
 
 const ListItem = styled.div`

@@ -38,7 +38,7 @@ const ProjectCard = ({ title, imageSrc, date, info, tech, githubLink }) => {
 const CardContainer = styled.div`
   position: relative;
   width: 100%;
-  max-width: 300px;
+  max-width: 400px;
   margin: 0 auto;
 `;
 
@@ -55,20 +55,21 @@ const Card = styled.article`
   }
 
   .img {
-    width: 100%;
-    height: auto;
+    width: 95%;
+    //height: auto;
     border-radius: 15px 15px 0 0;
+    margin: 10px;
   }
 
   .txt {
     padding: 15px;
-    background-color: #ebe9eb;
+    background-color: #edeced;
     font-family: 'Happiness-Sans';
-    color: #8e8e8e;
+    color: #605267;
 
     a {
       text-decoration: none; /* 밑줄 지우기 */
-      color: #5b5959;
+      color: #6c5f5f;
       cursor: pointer;
     }
   }
