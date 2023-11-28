@@ -82,14 +82,14 @@ const Contact = () => {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    gap: 10rem;
+    gap: 6rem;
     margin-top: 130px;
   `;
   
   const ContactLink = styled.a`
     color: #a7bce1;
     text-decoration: none;
-    font-size: 50px;
+    font-size: 40px;
   
     &:hover {
       text-decoration: underline;
